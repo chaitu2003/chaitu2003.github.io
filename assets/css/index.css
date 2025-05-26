@@ -228,7 +228,7 @@ nav ul li a:hover::after {
     display: inline-block;
 }
 
-.ibs-list div button {
+.button_visit {
     background-color: #187980;
     padding: 10px 50px;
     border-radius: 6px;
@@ -239,12 +239,16 @@ nav ul li a:hover::after {
     justify-items: center;
 }
 
+.button_visit:hover {
+  background: white;
+  color: #187980;
+}
+
 .ibs-list div:hover {
-    background: #ff004f;
+    background: #187980;
     transform: translateY(-10px);
     cursor: pointer;
 }
-
 /* Projects Section */
 #projects {
   padding: 50px 0;

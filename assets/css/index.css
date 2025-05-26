@@ -209,6 +209,8 @@ nav ul li a:hover::after {
 .ibs-list div i {
     font-size: 50px;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 .ibs-list div h2 {

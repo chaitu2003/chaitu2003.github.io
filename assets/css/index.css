@@ -205,6 +205,9 @@ nav ul li a:hover::after {
     font-weight: 300;
     border-radius: 10px;
     transition: background 0.5s, transform 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .ibs-list div i {
@@ -237,6 +240,7 @@ nav ul li a:hover::after {
     cursor: pointer;
     color: white;
     justify-items: center;
+    margin-top: auto;
 }
 
 .button_visit:hover {
@@ -249,6 +253,12 @@ nav ul li a:hover::after {
     transform: translateY(-10px);
     cursor: pointer;
 }
+
+.ibs-list div:hover .button_visit {
+  background: white;
+  color: #187980;
+}
+
 /* Projects Section */
 #projects {
   padding: 50px 0;

@@ -208,6 +208,7 @@ nav ul li a:hover::after {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-height: 350px;
 }
 
 .ibs-list div i {

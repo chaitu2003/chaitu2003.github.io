@@ -399,7 +399,7 @@ form input, form textarea {
     border: 0;
     outline: none;
     background: #262626;
-    padding: 15px 0;
+    padding: 15px;
     color: #fff;
     margin: 15px 0;
     font-size: 18px;

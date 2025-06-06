@@ -368,8 +368,14 @@ nav ul li a:hover::after {
   cursor: pointer;
 }
 
-.contact-left p i {
-  color: #ff004f;
+.p {
+  color: rgb(61, 124, 220);
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+.m {
+  color: rgb(61, 220, 119);
   margin-right: 10px;
   font-size: 25px;
 }

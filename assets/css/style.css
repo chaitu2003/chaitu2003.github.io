@@ -205,9 +205,9 @@ nav ul li a:hover::after {
   font-weight: 300;
   border-radius: 10px;
   transition: background 0.5s, transform 0.5s;
-  display: flex; /* ✅ add */
-  flex-direction: column; /* ✅ vertical layout */
-  justify-content: space-between; /* ✅ push button to bottom */
+  display: flex; /*  display */
+  flex-direction: column; /*  vertical layout */
+  justify-content: space-between; /*  push button to bottom */
   min-height: 350px;
 }
 
@@ -350,6 +350,7 @@ nav ul li a:hover::after {
 .btn:hover {
   background: #ff004f;
 }
+
 /*certifications section  */
 #certifications {
   padding: 30px 0px;
@@ -365,10 +366,17 @@ nav ul li a:hover::after {
 .certificate {
   position: relative;
   overflow: hidden;
-  background-color: rgb(161, 155, 155);
+  background: rgb(161, 155, 155);
   border-radius: 5px;
+  cursor: pointer;
   /* max-height: min-content; */
-  padding-bottom: 15px;
+  padding-bottom: 18px;
+  transition: background 0.5s, transform 0.5s;
+}
+
+.certificate:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
 }
 
 .certificate img {
@@ -392,9 +400,10 @@ nav ul li a:hover::after {
   color: white;
   background-color: #187980;
   border-radius: 5px;
-  padding: 7px 10px;
+  padding: 8px 10px;
   margin-left: 100px;
   margin-bottom: 40px;
+  transition: background 0.5s, transform 0.5s;
 }
 
 .cer-layer a i{
@@ -403,6 +412,11 @@ nav ul li a:hover::after {
   margin-left: 5px;
 }
 
+.cer-layer a:hover {
+  transform: translateY(10px);
+}
+
+/* contact section  */
 .contact-left {
   flex-basis: 35%;
 }
@@ -515,4 +529,5 @@ form btn2 {
     font-size: 36px;
   }
 }
+
 
